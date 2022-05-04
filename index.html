@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="app.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <title>Gergő Farkas</title>
+</head>
+<body>
+    <div class="content">
+    <section class="home" id="home">
+        <div class="homeContainer">
+            <nav class="navbar">
+                <div class="navContainer">
+                    <ul>
+                        <a href="#home"><li>Home</li></a>
+                        <a href="#aboutme"><li>About</li></a>
+                        <a href="#projects"><li>Projects</li></a>
+                        <a href="#contact"><li>Contact</li></a>
+                    </ul>
+                </div>
+            </nav>
+            <div class="welcome">
+            <h1>Gergő Farkas</h1>
+            <p>Webdeveloper</p>
+        </div>
+            <div class="down">
+                <img src="./src/Arrows_down_animated.gif" alt="arrow">
+            </div>
+        </div>
+    </section>
+    <section class="aboutme" id="aboutme">
+        <div class="aboutContainer" data-aos="zoom-in" data-aos-duration="2000">
+            <img src="./src/Me.jpg" alt="me" class="porfPic">
+            <div class="vl"></div>
+            <div class="blabla">
+                <p> <span class="hello">Hello! </span> <br> <br> My name is Gergő Farkas and I'm a hungarian webdeveloper. <br>
+                    I started to learn programming at the high school. <br>
+                    At the beginning I learned the basics in C++. <br>
+                    After the basics I learned webprogramming with HTML, CSS and PHP. <br>
+                    That was the time when I realized programming is cool, so I started to create some mini projects by myself at home. <br>
+                    In the college I have had many programming classes including mobile app development and webdevelopment. <br>
+                    During my college years I got familiar with Java and Javascript, however I prefer to do things in Javascript. <br>
+                    Nowadays I usually use Javascript for everything, so I imagine myself as a javascript developer. <br>
+                <br><br><br>
+                <a href="./src/CV-Gergő-Farkas-2022.pdf" download><button class="resume">My Resume</button></a>
+            </p>
+            </div>
+        </div>
+    </section>
+    <section class="projects" id="projects">
+        <div class="contain">
+        <h1>Projects</h1>
+        <div class="projectContainer" data-aos="zoom-in" data-aos-duration="2000">
+            <div class="plinks">
+                <a href="#projects" class="webs">Webshop (Vanilla JS)</a>
+                <a href="#projects" class="calo">Memory game (ES6 API)</a>
+                <a href="#projects" class="cofl">Weather app (React API)</a>
+            </div>
+            <div class="pblabla">
+            <div class="webshop">
+                <img src="./src/webshop.png" alt="webshoppic">
+                <h4>Webshop</h4>
+                <p> <br> Before you look at this project, I would like to let you know, this is my very first project.<br>
+                I know I should refactor it, but I want to track my progress in Javascript, so I really don't want to touch it. <br>
+                In the near future, with the knowledge I have already acquired, I will create another webshop based on this project. <br> 
+                I was very happy to be able to put this project together on my own. <br>
+                During creating this "webshop", I learned to use google to solve my problems and filter the information. <br>
+                Moreover I have tried to develop the basics of programming in Javascript to a higher level (though that wasn't always the case).
+                <br><br>
+                <b> Programming languages </b> that I used in this project: <b> HTML5, CSS3, Javascript (vanilla)</b> <br><br>
+                <a href="https://github.com/G-WOLF9527/Webshop" target="__blank"><button class="githrepo">Github repo</button></a>
+             </p>
+            </div>
+            <div class="calorie">
+                <img src="./src/memo.jpg" alt="calopic">
+                <h4>Memory Game</h4>
+                <p> <br> This is a simple memory game with pictures. <br>
+                    I used Web API in this project for random pictures. <br>
+                    The link to this API: <a href="https://picsum.photos/" target="__blank">https://picsum.photos/</a> <br>
+                    I will try to make a little effort soon to get the UX done nicely, but here the main goal was to use ES6 features such as async, await and also callback functions.<br>
+                    I also coded this project by myself without any help, no lines were copied.
+                    <br><br>
+                    <b> Programming languages </b> that I used in this project: <b> HTML5, CSS3, Javascript (vanilla - ES6+)</b> <br><br>
+                    <a href="https://github.com/G-WOLF9527/Memory-Game" target="__blank"><button class="githrepo">Github repo</button></a>
+                </p>
+            </div>
+            <div class="coffee">
+                <img src="./src/weather.jpg" alt="coffeepic">
+                <h4>Weather app</h4>
+                <p> <br> This is my very first React project. <br>
+                    I know a lot of weather applications have been done before me, but I chose to move API fetch and ES6 + technologies to another project. <br>
+                    Coding in React and JSX is extremely enjoyable for me. <br>
+                    While coding this project, I have figured out, that my next project will be also in React. <br>
+                    The popular API I used in the project is: <a href="https://openweathermap.org/api" target="__blank">https://openweathermap.org/api</a> <br><br>
+                   <b> Programming languages </b> that I used in this project: <b> CSS3, Javascript (ES6+), React (Library), JSX </b> <br><br>
+                    <a href="https://github.com/G-WOLF9527/React-Weather-app" target="__blank"><button class="githrepo">Github repo</button></a>
+                </p>
+            </div>
+        </div>
+        </div>
+</div>
+</section>
+<footer class="contact" id="contact">
+    <div class="contactsContainer">
+        <div class="mail">
+        <img src="./src/iconmonstr-email-10.svg" alt="email">
+        <p>f.gergo.95@gmail.com</p>
+        </div>
+        <div class="phone">
+        <img src="./src/iconmonstr-phone-8.svg" alt="phone">
+        <p>+3630/267-8451</p>
+        </div>
+        <div class="github">
+        <img src="./src/iconmonstr-github-4.svg" alt="github">
+        <p>Github: G-WOLF9527</p>
+    </div>
+    </div>
+</footer>
+</div>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
